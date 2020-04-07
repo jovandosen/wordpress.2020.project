@@ -247,6 +247,7 @@
     // override default attributes with user attributes
     $wporg_atts = shortcode_atts([
                                      'title' => 'WordPress.org',
+                                     'extra' => 'Extra default'
                                  ], $atts, $tag);
  
     // start output
@@ -257,6 +258,9 @@
  
     // title
     $o .= '<h2>' . esc_html__($wporg_atts['title'], 'wporg') . '</h2>';
+
+    // extra
+    $o .= '<h3>' . esc_html__($wporg_atts['extra'], 'wporg') . '</h3>';
  
     // enclosing tags
     if (!is_null($content)) {

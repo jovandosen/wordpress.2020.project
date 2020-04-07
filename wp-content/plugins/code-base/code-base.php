@@ -135,4 +135,92 @@
  	}
  }
 
+ // submenu examples
+
+ function wporg_options_page_html_two()
+ {
+    // check user capabilities
+    if (!current_user_can('manage_options')) {
+        return;
+    }
+    ?>
+    <div class="wrap">
+        <h1><?= esc_html(get_admin_page_title()); ?></h1>
+        <h4>Example title</h4>
+        <form action="options.php" method="post">
+            <?php
+            // output security fields for the registered setting "wporg_options"
+            settings_fields('wporg_options');
+            // output setting sections and their fields
+            // (sections are registered for "wporg", each field is registered to a specific section)
+            do_settings_sections('wporg');
+            // output save settings button
+            submit_button('Save Data');
+            ?>
+        </form>
+    </div>
+    <?php
+ }
+
+ function wporg_options_page_two()
+ {
+    add_submenu_page(
+        'tools.php',
+        'WPOrg Options',
+        'WPOrg Options',
+        'manage_options',
+        'wporg',
+        'wporg_options_page_html_two'
+    );
+ }
+
+ add_action('admin_menu', 'wporg_options_page_two');
+
+ // 
+
+ function code_base_submenu_example()
+ {
+ 	// check user capabilities
+    if (!current_user_can('manage_options')) {
+        return;
+    }
+
+    ?>
+    <h1>Code Base Submenu example</h1>
+    <p>Description text.</p>
+    <form method="post" action="<?php menu_page_url( 'code-base-submenu' ) ?>">
+		<input type="text" name="dataTwo" autocomplete="off">
+		<input type="submit" name="sendTwo" value="SEND DATA">
+		<input type="hidden" name="checkTwo" value="<?php echo wp_create_nonce('checkTwo'); ?>">
+	</form>
+    <?php
+ }
+
+ function code_base_submenu_options()
+ {
+ 	$hookName = add_submenu_page(
+        'code-base',
+        'Code Base Submenu Title',
+        'Code Base Submenu',
+        'manage_options',
+        'code-base-submenu',
+        'code_base_submenu_example'
+    );
+
+    add_action( 'load-' . $hookName, 'code_base_submenu_submit' );
+ }
+
+ add_action('admin_menu', 'code_base_submenu_options');
+
+ function code_base_submenu_submit()
+ {
+ 	// runs on form submit
+ 	if( 'POST' === $_SERVER['REQUEST_METHOD'] && wp_verify_nonce($_POST['checkTwo'], 'checkTwo') ){
+ 		if( !empty($_POST['dataTwo']) ){
+ 			$data = $_POST['dataTwo'];
+ 			echo "You have submitted: " . $data;
+ 		}
+ 	}
+ }
+
 ?>

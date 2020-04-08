@@ -372,4 +372,6 @@
 
  // end of settings API
 
+ require 'include/CustomMetaBoxExample.php';
+
 ?>

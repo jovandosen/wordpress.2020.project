@@ -374,4 +374,6 @@
 
  require 'include/CustomMetaBoxExample.php';
 
+ require 'plugin.php';
+
 ?>

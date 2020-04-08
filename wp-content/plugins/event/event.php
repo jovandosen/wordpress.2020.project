@@ -32,6 +32,7 @@
  }
 
  require 'include/EventCustomPostType.php';
+ require 'include/EventLocation.php';
 
  if( !class_exists('Event') ){
 
@@ -45,6 +46,7 @@
  		public function boot()
  		{
  			$eventCustomPostType = new EventCustomPostType();
+ 			$eventLocation = new EventLocation();
  			add_action('pre_get_posts', array($this, 'extendMainQuery'));
  			add_action('admin_init', array($this, 'checkAcfActive'));
  		}

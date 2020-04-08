@@ -43,6 +43,7 @@ class EventCustomPostType
 	        'exclude_from_search' => false,
 	        'publicly_queryable'  => true,
 	        'capability_type'     => 'page',
+	        'rewrite' => array('slug' => 'events','with_front' => false),
 	    );
 
     	register_post_type( 'events', $args );

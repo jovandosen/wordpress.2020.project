@@ -45,11 +45,20 @@
  		public function boot()
  		{
  			$eventCustomPostType = new EventCustomPostType();
+ 			add_action('pre_get_posts', array($this, 'extendMainQuery'));
  		}
 
  		public static function create()
  		{
  			return new self;
+ 		}
+
+ 		public function extendMainQuery($query)
+ 		{
+ 			if ( is_home() && $query->is_main_query() ) {
+        		$query->set( 'post_type', array( 'post', 'page', 'events' ) );
+    		}
+    		return $query;
  		}
  	}
 

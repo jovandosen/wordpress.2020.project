@@ -36,6 +36,7 @@
  require 'include/EventCustomMetaBoxExample.php';
  require 'include/EventAssets.php';
  require 'include/EventMetaBox.php';
+ require 'include/EventCheckboxMetaBox.php';
 
  if( !class_exists('Event') ){
 
@@ -53,6 +54,7 @@
  			$customMetaBoxExample = new EventCustomMetaBoxExample();
  			$eventAssets = new EventAssets();
  			$eventMetaBox = new EventMetaBox();
+ 			$eventCheckboxMetaBox = new EventCheckboxMetaBox();
  			add_action('pre_get_posts', array($this, 'extendMainQuery'));
  			add_action('admin_init', array($this, 'checkAcfActive'));
  		}

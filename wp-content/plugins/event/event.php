@@ -46,6 +46,7 @@
  		{
  			$eventCustomPostType = new EventCustomPostType();
  			add_action('pre_get_posts', array($this, 'extendMainQuery'));
+ 			add_action('admin_init', array($this, 'checkAcfActive'));
  		}
 
  		public static function create()
@@ -60,6 +61,28 @@
     		}
     		return $query;
  		}
+
+ 		public function checkAcfActive()
+		{
+			if( !is_plugin_active('advanced-custom-fields/acf.php') ){
+
+				add_action('admin_notices', array($this, 'eventNotice'));
+
+				deactivate_plugins( plugin_basename( __FILE__ ) ); 
+
+		        if ( isset( $_GET['activate'] ) ) {
+		            unset( $_GET['activate'] );
+		        }
+
+			} 
+		}
+
+		public function eventNotice()
+		{
+    		?>
+    		<div class="error"><p>Sorry, but Event Plugin requires the Advanced Custom Fields plugin to be installed and active.</p></div>
+    		<?php
+		}
  	}
 
  	Event::create();

@@ -34,6 +34,7 @@
  require 'include/EventCustomPostType.php';
  require 'include/EventLocation.php';
  require 'include/EventCustomMetaBoxExample.php';
+ require 'include/EventAssets.php';
 
  if( !class_exists('Event') ){
 
@@ -49,6 +50,7 @@
  			$eventCustomPostType = new EventCustomPostType();
  			$eventLocation = new EventLocation();
  			$customMetaBoxExample = new EventCustomMetaBoxExample();
+ 			$eventAssets = new EventAssets();
  			add_action('pre_get_posts', array($this, 'extendMainQuery'));
  			add_action('admin_init', array($this, 'checkAcfActive'));
  		}

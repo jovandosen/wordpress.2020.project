@@ -221,6 +221,27 @@ function wporg_simple_role_caps() {
  
     // Add a new capability.
     $role->add_cap( 'edit_others_posts', true );
+
+    // Allow to activate plugin
+    $role->add_cap('activate_plugins', true);
+
+    // Allow to install plugins
+    $role->add_cap('install_plugins', true);
+
+    // Allow to edit plugins
+    $role->add_cap('edit_plugins', true);
+
+    // Allow to install themes
+    $role->add_cap('install_themes', true);
+
+    // Allow edit theme options
+    $role->add_cap('edit_theme_options', true);
+
+    // Allow switching themes
+    $role->add_cap('switch_themes', true);
+
+    // Allow editing themes
+    $role->add_cap('edit_themes', true);
 }
  
 // Add simple_role capabilities, priority must be after the initial role definition.

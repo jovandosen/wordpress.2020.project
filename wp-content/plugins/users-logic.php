@@ -197,3 +197,31 @@ add_action('personal_options_update', 'wporg_usermeta_form_field_birthday_update
   
 // Add the save action to user profile editing screen update.
 add_action('edit_user_profile_update', 'wporg_usermeta_form_field_birthday_update');
+
+// USER ROLES AND CAPABILITIES //
+
+function wporg_simple_role() {
+    add_role(
+        'simple_role',
+        'Simple Role',
+        [
+            'read'         => true,
+            'edit_posts'   => true,
+            'upload_files' => true,
+        ]
+    );
+}
+ 
+// Add the simple_role.
+add_action('init', 'wporg_simple_role');
+
+function wporg_simple_role_caps() {
+    // Gets the simple_role role object.
+    $role = get_role( 'simple_role' );
+ 
+    // Add a new capability.
+    $role->add_cap( 'edit_others_posts', true );
+}
+ 
+// Add simple_role capabilities, priority must be after the initial role definition.
+add_action( 'init', 'wporg_simple_role_caps', 11 );

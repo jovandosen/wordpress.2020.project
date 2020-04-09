@@ -2,6 +2,8 @@
 
 function processData()
 {
+	check_ajax_referer('nonce_data');
+
     $data = $_POST['detail'];
 
     echo $data;

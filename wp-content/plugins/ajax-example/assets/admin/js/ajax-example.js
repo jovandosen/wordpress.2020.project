@@ -6,7 +6,8 @@
        $("#test").on("keydown", function(){
             $.post(ajax_example_obj.url, {
                 action: "process",
-                detail: "foo"   
+                detail: "jovan",
+                _ajax_nonce: ajax_example_obj.nonce   
             }, function(data){
                 console.log(data);
             });

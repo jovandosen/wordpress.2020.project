@@ -15,11 +15,14 @@ class AjaxExampleAssets
 		wp_register_style('ajaxexamplecss', plugins_url('/ajax-example/assets/admin/css/ajax-example.css'));
 		wp_enqueue_style('ajaxexamplecss');
 
+		$nonce = wp_create_nonce('nonce_data');
+
 	 	wp_localize_script(
             'ajaxexamplejs',
             'ajax_example_obj',
             [
                 'url' => admin_url('admin-ajax.php'),
+                'nonce' => $nonce,
             ]
         );
 	}

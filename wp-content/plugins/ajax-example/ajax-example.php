@@ -63,3 +63,22 @@ function ajax_example_test_field_update( $user_id )
 add_action('show_user_profile', 'ajax_example_test_field');
 
 add_action('personal_options_update', 'ajax_example_test_field_update');
+
+// Heartbeat 
+
+function myplugin_receive_heartbeat( $response, $data ) {
+    // If we didn't receive our data, don't send any back.
+    if ( empty( $data['myplugin_customfield'] ) ) {
+        return $response;
+    }
+ 
+    // Calculate our data and pass it back. For this example, we'll hash it.
+    $received_data = $data['myplugin_customfield'];
+ 
+    $response['myplugin_customfield_hashed'] = sha1( $received_data );
+    return $response;
+}
+
+add_filter( 'heartbeat_received', 'myplugin_receive_heartbeat', 10, 2 );
+
+// end of heartbeat

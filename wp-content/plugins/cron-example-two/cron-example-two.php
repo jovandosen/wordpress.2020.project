@@ -21,7 +21,9 @@ add_action( 'bl_cron_hook', 'bl_cron_exec' );
 
 function bl_cron_exec()
 {
-	echo "Well and good.";
+	$message = "Well and good.";
+	echo $message;
+	// error_log($message);
 }
 
 if ( ! wp_next_scheduled( 'bl_cron_hook' ) ) {

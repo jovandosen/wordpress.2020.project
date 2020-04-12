@@ -24,6 +24,9 @@ class EventCheckboxMetaBox
 	public function addCheckboxMetaBoxHtmlData($post)
 	{
 		$values = get_post_meta($post->ID, 'box_checkbox_id', true);
+		if( empty($values) ){
+			$values = [];
+		}
 	    ?>
 	    <label for="dataCheckbox">Field description for checkbox</label>
 	    <div>

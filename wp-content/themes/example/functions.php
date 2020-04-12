@@ -16,3 +16,16 @@ function extendDefaultSettings()
 }
 
 add_action('after_setup_theme', 'extendDefaultSettings');
+
+function custom_class( $classes ) 
+{
+	if( is_front_page() ){
+		$classes[] = 'add-front-page-class';
+	}
+
+    $classes[] = 'add-to-all';
+
+    return $classes;
+}
+
+add_filter( 'body_class', 'custom_class' );

@@ -7,6 +7,7 @@
 		<meta name="keywords" content="HTML,CSS,XML,JavaScript,PHP,SQL">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<?php wp_head(); ?>
 	</head>
-	<body>
+	<body <?php body_class(); ?>>

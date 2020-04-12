@@ -1,5 +1,8 @@
 <?php get_header(); ?>
-<h1>Single event</h1>
+<h1>Event:</h1>
+<hr>
+
+<?php get_template_part('content'); ?>
 
 <?php
 	

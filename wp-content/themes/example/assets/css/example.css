@@ -1,3 +1,16 @@
 #content {
 	/*background-color: lightblue;*/
 }
+
+.data-container {
+	padding: 20px;
+}
+
+.link-style {
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.link-style:hover {
+	text-decoration: underline;
+}

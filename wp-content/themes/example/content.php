@@ -20,6 +20,11 @@
 				<div class="thumbnail">
 					<?php the_post_thumbnail('thumbnail'); ?>
 				</div>
+				<?php if( is_single() ): ?>
+					<div class="back-to-events">
+						<a href="<?php echo home_url('/events'); ?>"><?php _e('Back to Events', 'example'); ?></a>
+					</div>	
+				<?php endif; ?>	
 			</div>
 
 		<?php endwhile; ?>

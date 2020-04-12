@@ -14,3 +14,15 @@
 .link-style:hover {
 	text-decoration: underline;
 }
+
+.back-to-events {
+	padding-top: 10px;
+}
+
+.back-to-events a {
+	text-decoration: none;
+}
+
+.back-to-events a:hover {
+	text-decoration: underline;
+}

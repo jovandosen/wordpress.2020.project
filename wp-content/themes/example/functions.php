@@ -29,3 +29,10 @@ function custom_class( $classes )
 }
 
 add_filter( 'body_class', 'custom_class' );
+
+function allowCommentsForEvents()
+{
+	add_post_type_support( 'events', 'comments' );
+}
+
+add_action('init', 'allowCommentsForEvents');

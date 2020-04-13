@@ -1,3 +1,5 @@
 <?php get_header(); ?>
-<?php get_template_part('content'); ?>	
+<div class="container">
+	<h1>Test bootstrap</h1>
+</div>	
 <?php get_footer(); ?>

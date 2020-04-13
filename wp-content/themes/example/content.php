@@ -1,8 +1,9 @@
 <div id="content">
 
 	<?php
-		//$sql = array('post_type' => 'events', 'posts_per_page' => 3);
-		//$events = new WP_Query($sql);
+		$currentPage = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+		$sql = array('post_type' => 'events', 'posts_per_page' => 3, 'paged' => $currentPage);
+		query_posts($sql);
 	?>
 
 	<?php if( have_posts() ): ?>
@@ -34,11 +35,13 @@
 
 		<?php endwhile; ?>
 
-		<div class="nav-previous alignleft"><?php next_posts_link('Previous'); ?></div>	
-		<div class="nav-next alignright"><?php previous_posts_link('Next'); ?></div>
+		<div class="nav-previous alignleft"><?php next_posts_link('Older Posts'); ?></div>	
+		<div class="nav-next alignright"><?php previous_posts_link('Newer Posts'); ?></div>
 
 		<?php the_posts_pagination(); ?>
 
 	<?php endif; ?>	
+
+	<?php wp_reset_query(); ?>
 
 </div>

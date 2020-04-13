@@ -44,3 +44,20 @@
 .alignleft a:hover, .alignright a:hover {
 	text-decoration: underline;
 }
+
+.comments-section {
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+.comments-section h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.comment-data {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+	padding-left: 10px;
+}

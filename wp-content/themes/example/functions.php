@@ -1,5 +1,7 @@
 <?php
 
+require_once('bs4navwalker.php');
+
 function loadExampleAssets()
 {
 	wp_enqueue_style( 'examplecss', get_template_directory_uri() . '/assets/css/example.css', array(), '1.1', 'all');
@@ -38,3 +40,12 @@ function allowCommentsForEvents()
 }
 
 add_action('init', 'allowCommentsForEvents');
+
+function registerNavMenus()
+{
+	register_nav_menus(array(
+		'header-menu' => __('Header Menu')
+	));
+}
+
+add_action('init', 'registerNavMenus');

@@ -107,3 +107,26 @@
 [12-Apr-2020 18:14:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\event\include\EventCheckboxMetaBox.php on line 37
 [12-Apr-2020 18:14:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\event\include\EventCheckboxMetaBox.php on line 40
 [12-Apr-2020 18:14:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\event\include\EventCheckboxMetaBox.php on line 43
+[13-Apr-2020 08:44:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_pagination() in C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\content.php:42
+Stack trace:
+#0 C:\xampp\htdocs\wordpress.2020.project\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\wordpress.2020.project\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\wordpress.2020.project\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\archive-events.php(4): get_template_part('content')
+#4 C:\xampp\htdocs\wordpress.2020.project\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress.2020.project\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress.2020.project\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+
+Next Exception: Call to undefined function the_post_pagination() in C:\xampp\htdocs\wordpress.2020.project\wp- in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[13-Apr-2020 09:08:43 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\single-events.php:41
+Stack trace:
+#0 C:\xampp\htdocs\wordpress.2020.project\wp-blog-header.php(19): require_once()
+#1 C:\xampp\htdocs\wordpress.2020.project\index.php(17): require('C:\\xampp\\htdocs...')
+#2 {main}
+
+Next Exception: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82

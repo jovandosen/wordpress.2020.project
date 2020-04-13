@@ -26,3 +26,21 @@
 .back-to-events a:hover {
 	text-decoration: underline;
 }
+
+.alignleft {
+	float: left;
+	margin-left: 20px;
+}
+
+.alignright {
+	float: left;
+	margin-left: 10px;
+}
+
+.alignleft a, .alignright a {
+	text-decoration: none;
+}
+
+.alignleft a:hover, .alignright a:hover {
+	text-decoration: underline;
+}

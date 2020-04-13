@@ -26,8 +26,8 @@
 					    'container_id'    => 'bs4navbar',
 					    'container_class' => 'collapse navbar-collapse',
 					    'menu_id'         => false,
-					    'menu_class'      => 'navbar-nav mr-auto',
-					    'depth'           => 2,
+					    'menu_class'      => 'navbar-nav ml-auto',
+					    'depth'           => 0,
 					    'fallback_cb'     => 'bs4navwalker::fallback',
 					    'walker'          => new bs4navwalker()
 				   	]);

@@ -1,4 +1,4 @@
-<div id="content">
+<div id="content" class="container">
 
 	<?php
 		$currentPage = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
@@ -38,7 +38,7 @@
 		<div class="nav-previous alignleft"><?php next_posts_link('Older Posts'); ?></div>	
 		<div class="nav-next alignright"><?php previous_posts_link('Newer Posts'); ?></div>
 
-		<?php the_posts_pagination(); ?>
+		<?php //the_posts_pagination(); ?>
 
 	<?php endif; ?>	
 

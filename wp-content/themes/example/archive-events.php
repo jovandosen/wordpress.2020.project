@@ -1,5 +1,8 @@
 <?php get_header(); ?>
-<h1>Events:</h1>
-<hr>
+<div class="container">
+	<hr>
+	<h3>Events:</h3>
+	<hr>
+</div>
 <?php get_template_part('content'); ?>
 <?php get_footer(); ?>

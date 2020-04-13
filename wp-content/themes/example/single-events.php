@@ -1,6 +1,9 @@
 <?php get_header(); ?>
-<h1>Event:</h1>
-<hr>
+<div class="container">
+	<hr>
+	<h1>Event:</h1>
+	<hr>
+</div>
 
 <?php get_template_part('parts/content', 'event'); ?>
 
@@ -17,8 +20,11 @@
 		'label_submit' => __('Add Comment', 'example'), 
 		'title_reply' => __('Leave a Comment', 'example'),
 		'logged_in_as' => false
-	); 
-	comment_form($settings); 
+	);  
 ?>
+
+<div class="container">
+	<?php comment_form($settings); ?>
+</div>
 
 <?php get_footer(); ?>

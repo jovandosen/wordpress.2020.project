@@ -1,18 +1,15 @@
 <div id="content">
 
 	<?php
-
-		$sql = array('post_type' => 'events', 'posts_per_page' => 4);
-
-		$events = new WP_Query($sql);
-
+		//$sql = array('post_type' => 'events', 'posts_per_page' => 3);
+		//$events = new WP_Query($sql);
 	?>
 
-	<?php if( $events->have_posts() ): ?>
+	<?php if( have_posts() ): ?>
 
-		<?php while( $events->have_posts() ): ?>
+		<?php while( have_posts() ): ?>
 
-			<?php $events->the_post(); ?>
+			<?php the_post(); ?>
 
 			<div class="post-<?php the_ID(); ?> data-container">
 				<div class="title">
@@ -37,12 +34,11 @@
 
 		<?php endwhile; ?>
 
-		<div class="nav-previous alignleft"><?php next_post_link( '<strong>%link</strong>', 'Previous' ); ?></div>	
-		<div class="nav-next alignright"><?php previous_post_link( '<strong>%link</strong>', 'Next' ); ?></div>
+		<div class="nav-previous alignleft"><?php next_posts_link('Previous'); ?></div>	
+		<div class="nav-next alignright"><?php previous_posts_link('Next'); ?></div>
+
 		<?php the_posts_pagination(); ?>
 
 	<?php endif; ?>	
-
-	<?php wp_reset_postdata(); ?>
 
 </div>

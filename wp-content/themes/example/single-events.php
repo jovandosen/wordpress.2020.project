@@ -11,6 +11,14 @@
 	}
 ?>
 
-<?php //comment_form(); ?>
+<?php
+	// Display comment form
+	$settings = array(
+		'label_submit' => __('Add Comment', 'example'), 
+		'title_reply' => __('Leave a Comment', 'example'),
+		'logged_in_as' => false
+	); 
+	comment_form($settings); 
+?>
 
 <?php get_footer(); ?>

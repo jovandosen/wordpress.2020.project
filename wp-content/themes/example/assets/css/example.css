@@ -61,3 +61,11 @@
 	border-bottom: 1px solid black;
 	padding-left: 10px;
 }
+
+.comment-respond {
+	margin-left: 20px;
+}
+
+.comment-respond label {
+	display: flow-root;
+}

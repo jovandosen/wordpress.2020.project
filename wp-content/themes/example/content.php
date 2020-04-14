@@ -22,6 +22,9 @@
 				</div>
 				<div class="post-content">
 					<?php the_content(); ?>
+					<?php if( has_post_format('aside') ): ?>
+						<?php _e('This post has post format: aside.', 'example'); ?>
+					<?php endif; ?>
 				</div>
 				<div class="thumbnail">
 					<?php the_post_thumbnail('thumbnail'); ?>

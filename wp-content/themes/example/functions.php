@@ -197,3 +197,10 @@ function mt_sublevel_page2()
 }
 
 // end
+
+function addPostFormatsToEvents()
+{
+	add_post_type_support( 'events', 'post-formats' );
+}
+
+add_action('init', 'addPostFormatsToEvents');

@@ -12,6 +12,7 @@ if( !defined('ABSPATH') ){
 }
 
 require 'include/MyWidget.php';
+require 'include/ExampleWidget.php';
 
 if( !class_exists('WidgetsExample') ){
 
@@ -25,6 +26,7 @@ if( !class_exists('WidgetsExample') ){
 		public function boot()
 		{
 			$myWidget = new MyWidget(); // create instance of my widget
+			$exampleWidget = new ExampleWidget(); // another instance of widget
 		}
 
 		public static function create()

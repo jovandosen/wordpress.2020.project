@@ -14,7 +14,11 @@
 
 		<div class="container">
 			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-	   			<a class="navbar-brand" href="#">Example</a>
+   				<?php if( function_exists('the_custom_logo') ): ?>
+   					<?php if( has_custom_logo() ): ?>
+   						<?php the_custom_logo(); ?>
+   					<?php endif; ?>	
+   				<?php endif; ?>	
 	   			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
 	 				<span class="navbar-toggler-icon"></span>
 	   			</button>

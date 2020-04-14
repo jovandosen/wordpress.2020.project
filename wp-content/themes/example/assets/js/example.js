@@ -1,5 +1,8 @@
-jQuery(document).ready(function(){
-
-	console.log('Works well and good. Some more data to display.');
-
-});
+(function ($, window, document) {
+    'use strict';
+    $(document).ready(function () {
+       
+       $(".custom-logo-link").addClass("navbar-brand");
+        
+    });
+}(jQuery, window, document));

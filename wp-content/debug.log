@@ -155,3 +155,9 @@ Stack trace:
 #6 {main}
 
 Next Exception: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wordpress.2020.project\wp-content in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 11:19:18 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2303
+[14-Apr-2020 11:19:18 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2305
+[14-Apr-2020 11:19:18 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2303
+[14-Apr-2020 11:19:18 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2305
+[14-Apr-2020 11:19:18 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2303
+[14-Apr-2020 11:19:18 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2305

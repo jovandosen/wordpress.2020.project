@@ -28,6 +28,16 @@ function extendDefaultSettings()
     );
 
     add_theme_support( 'custom-header', $args );
+
+    $defaults = array(
+ 		'height'      => 80,
+ 		'width'       => 80,
+ 		'flex-height' => true,
+ 		'flex-width'  => true,
+ 		'header-text' => array( 'site-title', 'site-description' ),
+ 	);
+
+ 	add_theme_support( 'custom-logo', $defaults );
 }
 
 add_action('after_setup_theme', 'extendDefaultSettings');

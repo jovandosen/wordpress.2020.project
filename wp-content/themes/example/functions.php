@@ -204,3 +204,24 @@ function addPostFormatsToEvents()
 }
 
 add_action('init', 'addPostFormatsToEvents');
+
+// Add sidebar
+
+function registerSidebar()
+{
+	register_sidebar(
+        array(
+            'id'            => 'primary',
+            'name'          => __( 'Primary Sidebar' ),
+            'description'   => __( 'A short description of the sidebar.' ),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3><hr>',
+        )
+    );
+}
+
+add_action('widgets_init', 'registerSidebar');
+
+// end

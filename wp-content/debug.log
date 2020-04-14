@@ -161,3 +161,39 @@ Next Exception: syntax error, unexpected end of file, expecting elseif (T_ELSEIF
 [14-Apr-2020 11:19:18 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2305
 [14-Apr-2020 11:19:18 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2303
 [14-Apr-2020 11:19:18 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2305
+[14-Apr-2020 15:19:39 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\wordpress.2020.project\wp-includes\update.php on line 388
+[14-Apr-2020 15:20:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_acton() in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\widgets-example\widgets-example.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\widgets-example\widgets-example.php(32): WidgetsExample->__construct()
+#1 C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\widgets-example\widgets-example.php(36): WidgetsExample::create()
+#2 C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\plugin.php(659): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress.2020.project\wp-admin\plugins.php(44): activate_plugin('widgets-example...', 'http://wordpres...', false)
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\widgets-example\widgets-example.php on line 22
+[14-Apr-2020 15:20:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_acton() in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\widgets-example\widgets-example.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\widgets-example\widgets-example.php(32): WidgetsExample->__construct()
+#1 C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\widgets-example\widgets-example.php(36): WidgetsExample::create()
+#2 C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\plugin.php(2255): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress.2020.project\wp-admin\plugins.php(177): plugin_sandbox_scrape('widgets-example...')
+#4 {main}
+
+Next Exception: Call to undefined function add_acton() in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Error))
+#1 {main}
+  thrown in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 15:20:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_acton() in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\widgets-example\widgets-example.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\widgets-example\widgets-example.php(32): WidgetsExample->__construct()
+#1 C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\widgets-example\widgets-example.php(36): WidgetsExample::create()
+#2 C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\plugin.php(2255): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress.2020.project\wp-admin\plugins.php(177): plugin_sandbox_scrape('widgets-example...')
+#4 {main}
+
+Next Exception: Call to undefined function add_acton() in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Error))
+#1 {main}
+  thrown in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 15:37:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'MyWidget' not found or invalid function name in C:\xampp\htdocs\wordpress.2020.project\wp-includes\class-wp-hook.php on line 287

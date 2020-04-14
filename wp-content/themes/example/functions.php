@@ -17,6 +17,17 @@ function extendDefaultSettings()
 	add_theme_support( 'post-thumbnails' );
 	add_theme_support( 'automatic-feed-links' );
 	add_theme_support( 'post-formats', array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
+
+	$args = array(
+        'default-image'      => get_template_directory_uri() . '/assets/images/site.jpg',
+        'default-text-color' => '000',
+        'width'              => 1110,
+        'height'             => 250,
+        'flex-width'         => true,
+        'flex-height'        => true,
+    );
+
+    add_theme_support( 'custom-header', $args );
 }
 
 add_action('after_setup_theme', 'extendDefaultSettings');

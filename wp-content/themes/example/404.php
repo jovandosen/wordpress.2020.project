@@ -6,7 +6,7 @@
 
 <?php get_header(); ?>
 
-<div id="primary" class="content-area">
+<div id="primary" class="content-area container">
     <div id="content" class="site-content" role="main">
 
         <header class="page-header">

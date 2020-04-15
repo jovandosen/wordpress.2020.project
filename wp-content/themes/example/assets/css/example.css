@@ -78,3 +78,7 @@
 .move-content {
 	margin-top: 20px;
 }
+
+.add-border-style {
+	border-right: 1px solid rgba(0,0,0,.1);
+}

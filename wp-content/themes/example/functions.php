@@ -258,6 +258,51 @@ function extendCustomizer($wp_customize)
         'description' => __('Panel description', 'example'),
         'priority' => 160
     ));
+
+    // Another group
+
+    $wp_customize->add_setting('bar_setting', array(
+        'type' => 'theme_mod',
+        'capability' => 'edit_theme_options',
+        'default' => 'Bar default value',
+        'transport' => 'refresh',
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Control(
+        $wp_customize,
+        'bar_control',
+        array(
+            'label' => __('Bar label', 'example'),
+            'section' => 'bar_section',
+            'settings' => 'bar_setting'
+        )
+    ));
+
+    $wp_customize->add_section('bar_section', array(
+        'title' => __('Bar section title', 'example'),
+        'description' => __('Bar section description', 'example'),
+        'panel' => 'bar_panel'
+    ));
+
+    $wp_customize->add_panel('bar_panel', array(
+        'title' => __('Panel title two 2020', 'example'),
+        'description' => __('Panel two description', 'example'),
+        'priority' => 180
+    ));
+
+    // Add setting and control to existing sections
+
+    $wp_customize->add_setting('img_setting');
+
+    $wp_customize->add_control(new WP_Customize_Upload_Control(
+        $wp_customize,
+        'img_control',
+        array(
+            'label' => __('Upload Image', 'example'),
+            'section' => 'bar_section',
+            'settings' => 'img_setting'
+        )
+    ));
 }
 
 add_action('customize_register', 'extendCustomizer');

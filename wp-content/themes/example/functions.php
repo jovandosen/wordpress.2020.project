@@ -303,6 +303,50 @@ function extendCustomizer($wp_customize)
             'settings' => 'img_setting'
         )
     ));
+
+    //
+
+    $wp_customize->add_setting('baz_textarea_setting');
+
+    $wp_customize->add_control(new WP_Customize_Control(
+        $wp_customize,
+        'baz_textarea_control',
+        array(
+            'label' => __('Description'),
+            'section' => 'bar_section',
+            'settings' => 'baz_textarea_setting',
+            'type' => 'textarea'
+        )
+    ));
+
+    //
+
+    $wp_customize->add_setting('baz_date_setting');
+
+    $wp_customize->add_control(new WP_Customize_Control(
+        $wp_customize,
+        'baz_date_control',
+        array(
+            'label' => __('Date'),
+            'section' => 'foo_section',
+            'settings' => 'baz_date_setting',
+            'type' => 'date'
+        )
+    ));
+
+    //
+
+    $wp_customize->add_setting('baz_color_setting');
+
+    $wp_customize->add_control(new WP_Customize_Color_Control(
+        $wp_customize,
+        'baz_color_control',
+        array(
+            'label' => __('Color'),
+            'section' => 'foo_section',
+            'settings' => 'baz_color_setting',
+        )
+    ));
 }
 
 add_action('customize_register', 'extendCustomizer');

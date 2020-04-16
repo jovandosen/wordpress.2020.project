@@ -212,3 +212,11 @@ Stack trace:
   thrown in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
 [15-Apr-2020 11:58:52 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
 [15-Apr-2020 11:58:52 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[16-Apr-2020 12:05:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Customize_Manager::add_setting(), 0 passed in C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\functions.php on line 233 and at least 1 expected in C:\xampp\htdocs\wordpress.2020.project\wp-includes\class-wp-customize-manager.php:3691
+Stack trace:
+#0 C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\functions.php(233): WP_Customize_Manager->add_setting()
+#1 C:\xampp\htdocs\wordpress.2020.project\wp-includes\class-wp-hook.php(287): extendCustomizer(Object(WP_Customize_Manager))
+#2 C:\xampp\htdocs\wordpress.2020.project\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress.2020.project\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress.2020.project\wp-includes\class-wp-customize-manager.php(928): do_action('customize_regis...', Object(WP_Customize_Manager))
+#5 C:\xampp\htdocs\wordpress.2020.project\wp-includes\class-wp-hook.php(287): WP_Cust in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82

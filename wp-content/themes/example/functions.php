@@ -225,3 +225,41 @@ function registerSidebar()
 add_action('widgets_init', 'registerSidebar');
 
 // end
+
+// Extend Customizer
+
+function extendCustomizer($wp_customize)
+{
+    $wp_customize->add_setting('foo_setting', array(
+        'type' => 'theme_mod',
+        'capability' => 'edit_theme_options',
+        'default' => 'Foo default',
+        'transport' => 'refresh',
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Control(
+        $wp_customize,
+        'foo_control',
+        array(
+            'label' => __('Foo label', 'example'),
+            'section' => 'foo_section',
+            'settings' => 'foo_setting'
+        )
+    ));
+
+    $wp_customize->add_section('foo_section', array(
+        'title' => __('Foo section title', 'example'),
+        'description' => __('Foo section description', 'example'),
+        'panel' => 'foo_panel'
+    ));
+
+    $wp_customize->add_panel('foo_panel', array(
+        'title' => __('Panel title 2020', 'example'),
+        'description' => __('Panel description', 'example'),
+        'priority' => 160
+    ));
+}
+
+add_action('customize_register', 'extendCustomizer');
+
+// end

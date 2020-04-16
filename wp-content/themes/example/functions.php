@@ -12,6 +12,13 @@ function loadExampleAssets()
 
 add_action('wp_enqueue_scripts', 'loadExampleAssets');
 
+function loadCustomizerScripts()
+{
+    wp_enqueue_script( 'customizerjs', get_template_directory_uri() . '/assets/js/customizer-example.js', array ( 'customize-preview', 'jquery' ), '', true);
+}
+
+add_action('customize_preview_init', 'loadCustomizerScripts');
+
 function extendDefaultSettings()
 {
 	add_theme_support( 'post-thumbnails' );
@@ -347,6 +354,11 @@ function extendCustomizer($wp_customize)
             'settings' => 'baz_color_setting',
         )
     ));
+
+    // this disables default javascript LIVE CHANGE event //
+    $wp_customize->get_setting( 'foo_setting' )->transport = 'postMessage';
+    // $wp_customize->get_setting( 'bar_setting' )->transport = 'postMessage';
+    // $wp_customize->get_setting( 'baz_textarea_setting' )->transport = 'postMessage';
 }
 
 add_action('customize_register', 'extendCustomizer');

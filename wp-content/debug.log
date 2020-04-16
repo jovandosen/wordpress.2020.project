@@ -220,3 +220,23 @@ Stack trace:
 #3 C:\xampp\htdocs\wordpress.2020.project\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
 #4 C:\xampp\htdocs\wordpress.2020.project\wp-includes\class-wp-customize-manager.php(928): do_action('customize_regis...', Object(WP_Customize_Manager))
 #5 C:\xampp\htdocs\wordpress.2020.project\wp-includes\class-wp-hook.php(287): WP_Cust in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[16-Apr-2020 14:31:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\functions.php on line 20 and at least 2 expected in C:\xampp\htdocs\wordpress.2020.project\wp-includes\plugin.php:403
+Stack trace:
+#0 C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\functions.php(20): add_action()
+#1 C:\xampp\htdocs\wordpress.2020.project\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress.2020.project\wp-config.php(92): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress.2020.project\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress.2020.project\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+
+Next Exception: Too few arguments to function add_action(), 0 passed in C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\functions.php on line 20 and at least 2 expected in C:\xampp\htdocs\wordpress.2020.project\wp-con in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[16-Apr-2020 14:32:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\functions.php on line 20 and at least 2 expected in C:\xampp\htdocs\wordpress.2020.project\wp-includes\plugin.php:403
+Stack trace:
+#0 C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\functions.php(20): add_action()
+#1 C:\xampp\htdocs\wordpress.2020.project\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress.2020.project\wp-config.php(92): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress.2020.project\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress.2020.project\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+
+Next Exception: Too few arguments to function add_action(), 0 passed in C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\functions.php on line 20 and at least 2 expected in C:\xampp\htdocs\wordpress.2020.project\wp-con in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82

@@ -14,10 +14,17 @@
 
 				// Uploaded file
 				$uploadedData = get_theme_mod('img_setting');
+
+				// Text field data
+				$textFieldData = get_theme_mod('bar_setting');
+
+				// Foo text field data
+				$fooText = get_theme_mod('foo_setting');
 			?>
-			<h4>Customizer textarea data</h4>
-			<p class="text-justify"><?php _e($textareaData, 'example'); ?></p>
+			<h4 id="bar_setting_id"><?php _e($textFieldData, 'example'); ?></h4>
+			<p class="text-justify" id="baz_textarea_setting_id"><?php _e($textareaData, 'example'); ?></p>
 			<hr>
+			<h5 id="foo_setting_id"><?php _e($fooText, 'example'); ?></h5>
 			<img src="<?php _e($uploadedData, 'example'); ?>" class="img-fluid">
 		</div>
 		<div class="col-md-4 move-content">

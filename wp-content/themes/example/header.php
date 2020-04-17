@@ -11,7 +11,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
-
+		<?php wp_body_open(); ?>
 		<div class="container">
 			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
    				<?php if( function_exists('the_custom_logo') ): ?>

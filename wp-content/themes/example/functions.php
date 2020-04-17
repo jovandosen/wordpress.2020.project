@@ -227,6 +227,42 @@ function registerSidebar()
             'after_title'   => '</h3><hr>',
         )
     );
+
+    register_sidebar(
+        array(
+            'id'            => 'footer-box-one',
+            'name'          => __( 'Footer Box One' ),
+            'description'   => __( 'A short description of the Footer Box One.' ),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h5 class="widget-title">',
+            'after_title'   => '</h5><hr>',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'id'            => 'footer-box-two',
+            'name'          => __( 'Footer Box Two' ),
+            'description'   => __( 'A short description of the Footer Box Two.' ),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h5 class="widget-title">',
+            'after_title'   => '</h5><hr>',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'id'            => 'footer-box-three',
+            'name'          => __( 'Footer Box Three' ),
+            'description'   => __( 'A short description of the Footer Box Three.' ),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h5 class="widget-title">',
+            'after_title'   => '</h5><hr>',
+        )
+    );
 }
 
 add_action('widgets_init', 'registerSidebar');
@@ -364,3 +400,11 @@ function extendCustomizer($wp_customize)
 add_action('customize_register', 'extendCustomizer');
 
 // end
+
+// wp_body_open action hook is used to print out some content that is not visible to users
+function displaySomeDetails()
+{
+    printf("<!-- Wordpress 2020 Project Files -->");
+}
+
+add_action('wp_body_open', 'displaySomeDetails');

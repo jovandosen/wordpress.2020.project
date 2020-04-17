@@ -240,3 +240,4 @@ Stack trace:
 #5 {main}
 
 Next Exception: Too few arguments to function add_action(), 0 passed in C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\functions.php on line 20 and at least 2 expected in C:\xampp\htdocs\wordpress.2020.project\wp-con in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[17-Apr-2020 11:53:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wordpress.2020.project\wp-content\plugins\duplicate-wp-page-post\duplicate-wp-page-post.php on line 47

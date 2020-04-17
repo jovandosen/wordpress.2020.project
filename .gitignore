@@ -3,3 +3,5 @@ wp-includes/
 wp-content/plugins/advanced-custom-fields/
 wp-content/uploads/
 wp-content/themes/example/bootstrap/
+wp-content/plugins/duplicate-wp-page-post/
+wp-content/test.log

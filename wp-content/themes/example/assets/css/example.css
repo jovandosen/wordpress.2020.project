@@ -82,3 +82,7 @@
 .add-border-style {
 	border-right: 1px solid rgba(0,0,0,.1);
 }
+
+#site-footer a {
+	color: white;
+}

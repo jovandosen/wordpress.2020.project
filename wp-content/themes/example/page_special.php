@@ -42,8 +42,25 @@
 
 				<?php endif; ?>
 
-				<?php wp_reset_query(); ?>	
-					
+				<?php wp_reset_query(); ?>
+
+				<?php if( comments_open() || get_comments_number() ): ?>
+					<?php comments_template(); ?>
+				<?php endif; ?>	
+
+				<?php
+					// Display comment form
+					$settings = array(
+						'label_submit' => __('Add Comment', 'example'), 
+						'title_reply' => __('Leave a Comment', 'example'),
+						'logged_in_as' => false
+					);  
+				?>
+
+				<div class="container">
+					<?php comment_form($settings); ?>
+				</div>
+
 			</div>
 		</div>
 

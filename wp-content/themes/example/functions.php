@@ -72,7 +72,9 @@ add_action('init', 'allowCommentsForEvents');
 function registerNavMenus()
 {
 	register_nav_menus(array(
-		'header-menu' => __('Header Menu')
+		'header-menu' => __('Header Menu'),
+        'foo-menu' => __('Foo Menu'),
+        'bar-menu' => __('Bar Menu')
 	));
 }
 

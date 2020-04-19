@@ -411,3 +411,47 @@ function displaySomeDetails()
 }
 
 add_action('wp_body_open', 'displaySomeDetails');
+
+// Extend search results
+
+function my_smart_search( $search, $wp_query ) 
+{
+    global $wpdb;
+ 
+    if ( empty( $search ))
+        return $search;
+ 
+    $terms = $wp_query->query_vars[ 's' ];
+    $exploded = explode( ' ', $terms );
+    if( $exploded === FALSE || count( $exploded ) == 0 )
+        $exploded = array( 0 => $terms );
+         
+    $search = '';
+    foreach( $exploded as $tag ) {
+        $search .= " AND (
+            (wp_posts.post_title LIKE '%$tag%')
+            OR (wp_posts.post_content LIKE '%$tag%')
+            OR EXISTS
+            (
+                SELECT * FROM wp_comments
+                WHERE comment_post_ID = wp_posts.ID
+                    AND comment_content LIKE '%$tag%'
+            )
+            OR EXISTS
+            (
+                SELECT * FROM wp_terms
+                INNER JOIN wp_term_taxonomy
+                    ON wp_term_taxonomy.term_id = wp_terms.term_id
+                INNER JOIN wp_term_relationships
+                    ON wp_term_relationships.term_taxonomy_id = wp_term_taxonomy.term_taxonomy_id
+                WHERE taxonomy = 'post_tag'
+                    AND object_id = wp_posts.ID
+                    AND wp_terms.name LIKE '%$tag%'
+            )
+        )";
+    }
+ 
+    return $search;
+}
+
+add_filter( 'posts_search', 'my_smart_search', 500, 2 );

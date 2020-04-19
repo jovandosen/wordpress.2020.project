@@ -37,8 +37,8 @@
 				<?php endwhile; ?>
 
 				<div class="row">
-					<div class="col-6"><?php next_posts_link('Older Posts'); ?></div>	
-					<div class="col-6 text-right"><?php previous_posts_link('Newer Posts'); ?></div>
+					<div class="col-6"><?php next_posts_link('Older Comments'); ?></div>	
+					<div class="col-6 text-right"><?php previous_posts_link('Newer Comments'); ?></div>
 				</div>
 
 			<?php else: ?>

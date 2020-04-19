@@ -2,6 +2,8 @@
 	<div class="row">
 		<div class="col-12">
 			
+			<?php $post_count = 1; ?>
+
 			<?php if( have_posts() ): ?>
 
 				<?php while( have_posts() ): ?>
@@ -21,10 +23,24 @@
 						<div class="post-thumbnail">
 							<?php the_post_thumbnail('medium'); ?>
 						</div>
-						<hr class="style-hr">
+
+						<?php if( $post_count != $wp_query->found_posts ): ?>
+							<hr class="style-hr">
+						<?php endif; ?>
+
 					</div>
 
+					<?php $post_count++; ?>
+
 				<?php endwhile; ?>
+
+				<div class="row">
+					<div class="col-6"><?php next_posts_link('Older Posts'); ?></div>	
+					<div class="col-6 text-right"><?php previous_posts_link('Newer Posts'); ?></div>
+				</div>
+
+			<?php else: ?>
+				<h5><?php _e('No Posts found.', 'example'); ?></h5>	
 
 			<?php endif; ?>	
 

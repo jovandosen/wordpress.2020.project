@@ -110,3 +110,7 @@
 .comment-reply-link:hover {
 	color: white;
 }
+
+.comments-lvl-two {
+	padding-left: 15px;
+}

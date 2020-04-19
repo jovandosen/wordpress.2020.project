@@ -10,7 +10,8 @@ $postID = get_queried_object_id();
 //Get only the approved comments
 $args = array(
     'status' => 'approve',
-    'post_id' => $postID
+    'post_id' => $postID,
+    'parent' => '0'
 );
  
 // The comment Query
@@ -36,6 +37,30 @@ $comments = $comments_query->query( $args );
 							comment_reply_link($arguments, $comment); 
 						?>
 					</p>
+
+					<?php
+
+						$commentArgs = array('status' => 'approve', 'parent' => $comment->comment_ID);
+
+						$comments_nested_query = new WP_Comment_Query;
+
+						$nestedComments = $comments_nested_query->query($commentArgs);
+
+					?>
+
+					<?php if( !empty($nestedComments) ): ?>
+						<a href="<?php echo esc_js( 'javascript:void(0)' ); ?>" onclick="<?php echo esc_js( 'hideShowComments(this)' ); ?>">View comment reply list:</a>
+						<div class="comments-lvl-two" style="display: none;" id="comments-reply-box">
+							<?php foreach($nestedComments as $k => $v): ?>
+								<hr>
+								<p><?php echo 'Author: ' . $v->comment_author; ?></p>
+								<p><?php echo 'Content: ' . $v->comment_content; ?></p>
+								<p><?php echo 'Created: ' . $v->comment_date; ?></p>
+								<hr>
+							<?php endforeach; ?>	
+						</div>
+					<?php endif; ?>
+
 				</div>
 			<?php endforeach; ?>	
 		</div>

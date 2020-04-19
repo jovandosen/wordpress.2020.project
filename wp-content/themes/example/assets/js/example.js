@@ -6,3 +6,8 @@
         
     });
 }(jQuery, window, document));
+
+function hideShowComments(that)
+{
+	jQuery(that).next().toggle();
+}

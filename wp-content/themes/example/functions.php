@@ -455,3 +455,12 @@ function my_smart_search( $search, $wp_query )
 }
 
 add_filter( 'posts_search', 'my_smart_search', 500, 2 );
+
+function nestedComments()
+{
+    if ( is_single() && comments_open() && get_option( 'thread_comments' ) ) {
+        wp_enqueue_script( 'comment-reply' );
+    }
+}
+
+add_action('get_header', 'nestedComments');

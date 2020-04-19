@@ -30,6 +30,12 @@ $comments = $comments_query->query( $args );
 					<p><?php echo 'Author: ' . $comment->comment_author; ?></p>
 					<p><?php echo 'Comment: ' . $comment->comment_content; ?></p>
 					<p><?php echo 'Created: ' . $comment->comment_date; ?></p>
+					<p>
+						<?php 
+							$arguments = array('depth' => 2, 'max_depth' => 3);
+							comment_reply_link($arguments, $comment); 
+						?>
+					</p>
 				</div>
 			<?php endforeach; ?>	
 		</div>

@@ -99,3 +99,14 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+.comment-reply-link {
+	border: 1px solid black;
+	padding: 0 10px 3px 10px;
+	background-color: deepskyblue;
+	color: white;
+}
+
+.comment-reply-link:hover {
+	color: white;
+}

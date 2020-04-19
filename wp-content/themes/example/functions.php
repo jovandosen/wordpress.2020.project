@@ -24,6 +24,7 @@ function extendDefaultSettings()
 	add_theme_support( 'post-thumbnails' );
 	add_theme_support( 'automatic-feed-links' );
 	add_theme_support( 'post-formats', array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
+    add_theme_support( 'html5', array('search-form') );
 
 	$args = array(
         'default-image'      => get_template_directory_uri() . '/assets/images/site.jpg',

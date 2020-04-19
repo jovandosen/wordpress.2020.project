@@ -25,6 +25,7 @@ function extendDefaultSettings()
 	add_theme_support( 'automatic-feed-links' );
 	add_theme_support( 'post-formats', array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
     add_theme_support( 'html5', array('search-form') );
+    add_theme_support( 'title-tag' );
 
 	$args = array(
         'default-image'      => get_template_directory_uri() . '/assets/images/site.jpg',
@@ -464,3 +465,14 @@ function nestedComments()
 }
 
 add_action('get_header', 'nestedComments');
+
+// Display document title on Home page
+function title_for_home( $title )
+{
+    if ( empty( $title ) && ( is_home() || is_front_page() ) ) {
+        $title = __( 'Home', 'example' );
+    }
+    return $title;
+}
+
+add_filter( 'wp_title', 'title_for_home' );

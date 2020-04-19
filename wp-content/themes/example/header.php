@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="<?php bloginfo('language'); ?>">
 	<head>
-		<title><?php bloginfo('name'); ?></title>
+		<title><?php wp_title(''); echo ' | ';  bloginfo( 'name' ); ?></title>
 		<meta name="author" content="Jovan Dosen">
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<meta name="keywords" content="HTML,CSS,XML,JavaScript,PHP,SQL">

@@ -32,6 +32,8 @@
 
 					<?php $post_count++; ?>
 
+					<?php get_template_part('parts/content', 'comment'); ?>
+
 				<?php endwhile; ?>
 
 				<div class="row">

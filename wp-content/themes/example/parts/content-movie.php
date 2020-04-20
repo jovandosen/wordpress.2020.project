@@ -2,16 +2,16 @@
 	
 	<?php
 		$currentPage = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-		$sql = array('post_type' => 'movies', 'posts_per_page' => 3, 'paged' => $currentPage);
-		query_posts($sql);
+		$sql = array('post_type' => 'movies', 'posts_per_page' => 4, 'paged' => $currentPage);
+		$query = new WP_Query($sql);
 		$counter = 0;
 	?>
 
-	<?php if( have_posts() ): ?>
+	<?php if( $query->have_posts() ): ?>
 
-		<?php while( have_posts() ): ?>
+		<?php while( $query->have_posts() ): ?>
 
-			<?php the_post(); ?>
+			<?php $query->the_post(); ?>
 
 			<div class="row <?php echo ($counter === 0) ? 'add-box-top-style' : ''; ?>">
 
@@ -41,12 +41,15 @@
 		<?php endwhile; ?>
 
 		<div class="row">
-			<div class="col-6"><?php next_posts_link('Older Posts'); ?></div>	
-			<div class="col-6 text-right"><?php previous_posts_link('Newer Posts'); ?></div>
-		</div>	
+			<div class="col-6"><?php next_posts_link(__('Older Posts', 'example'), $query->max_num_pages); ?></div>	
+			<div class="col-6 text-right"><?php previous_posts_link(__('Newer Posts', 'example')); ?></div>
+		</div>
+
+		<?php wp_reset_postdata(); ?>
+
+	<?php else: ?>		
+		<h5><?php _e('No Posts found.', 'example'); ?></h5>
 
 	<?php endif; ?>	
-
-	<?php wp_reset_query(); ?>
 
 </div>

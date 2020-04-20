@@ -1,4 +1,13 @@
 <div class="container">
+
+	<div class="row add-box-top-style">
+		<div class="col-12">
+			<form role="search" method="GET" action="<?php echo home_url('/'); ?>">
+				<input type="search" class="form-control" placeholder="Search Movies..." value="<?php echo get_search_query(); ?>" name="s" title="Search" autocomplete="off">
+				<input type="hidden" name="movie-search" value="search-for-movies">
+			</form>
+		</div>
+	</div>
 	
 	<?php
 		$currentPage = ( get_query_var('paged') ) ? get_query_var('paged') : 1;

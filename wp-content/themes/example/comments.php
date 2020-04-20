@@ -50,12 +50,44 @@ $comments = $comments_query->query( $args );
 
 					<?php if( !empty($nestedComments) ): ?>
 						<a href="<?php echo esc_js( 'javascript:void(0)' ); ?>" onclick="<?php echo esc_js( 'hideShowComments(this)' ); ?>">View comment reply list:</a>
-						<div class="comments-lvl-two" style="display: none;" id="comments-reply-box">
+						<div class="comments-lvl-two" style="display: none;">
 							<?php foreach($nestedComments as $k => $v): ?>
 								<hr>
 								<p><?php echo 'Author: ' . $v->comment_author; ?></p>
 								<p><?php echo 'Content: ' . $v->comment_content; ?></p>
 								<p><?php echo 'Created: ' . $v->comment_date; ?></p>
+								<p>
+									<?php
+										$ar = array('depth' => 2, 'max_depth' => 3);
+										comment_reply_link($ar, $v);
+									?>
+								</p>
+
+								<?php
+
+									$commentAr = array('status' => 'approve', 'parent' => $v->comment_ID);
+
+									$comments_nested_data = new WP_Comment_Query;
+
+									$nestedCommentsData = $comments_nested_data->query($commentAr);
+
+								?>
+
+								<?php if( !empty($nestedCommentsData) ): ?>
+
+									<a href="<?php echo esc_js( 'javascript:void(0)' ); ?>" onclick="<?php echo esc_js( 'hideShowComments(this)' ); ?>">View comment reply list:</a>
+									<div class="comments-lvl-three" style="display: none;">
+										<?php foreach($nestedCommentsData as $ke => $va): ?>
+
+											<hr>
+											<p><?php echo 'Author: ' . $va->comment_author; ?></p>
+											<p><?php echo 'Content: ' . $va->comment_content; ?></p>
+											<p><?php echo 'Created: ' . $va->comment_date; ?></p>
+
+										<?php endforeach; ?>	
+									</div>
+								<?php endif; ?>	
+
 								<hr>
 							<?php endforeach; ?>	
 						</div>

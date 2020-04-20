@@ -254,3 +254,201 @@ Next Exception: Too few arguments to function add_action(), 0 passed in C:\xampp
 [20-Apr-2020 11:20:15 UTC] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\wordpress.2020.project\wp-includes\class-wp-query.php on line 3275
 [20-Apr-2020 11:46:54 UTC] PHP Notice:  Undefined variable: counter in C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\parts\content-movie.php on line 16
 [20-Apr-2020 11:46:55 UTC] PHP Notice:  Undefined variable: counter in C:\xampp\htdocs\wordpress.2020.project\wp-content\themes\example\parts\content-movie.php on line 16
+[20-Apr-2020 13:49:54 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:54 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:54 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:54 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:54 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:55 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:55 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:55 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:55 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:55 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:55 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:55 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:55 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:56 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:56 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:56 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:56 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:56 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:56 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:57 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:57 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:57 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:57 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:57 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:58 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:58 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:58 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:58 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:58 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:58 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:58 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:58 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:58 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:58 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:58 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:58 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:58 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:58 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:59 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:59 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:59 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:59 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:59 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:59 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:49:59 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:49:59 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:00 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:00 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:00 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:00 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:00 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:00 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:00 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:01 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:01 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:01 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:01 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:01 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:01 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:01 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:01 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:02 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:02 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:02 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:02 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:02 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:02 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:03 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:03 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:03 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:03 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:03 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:03 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:04 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:04 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:05 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:05 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:05 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:05 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:05 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:06 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:06 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:06 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:06 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:07 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:07 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:07 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:07 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:07 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:07 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:07 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:08 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:08 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:08 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:08 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:09 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:09 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:09 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:09 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:09 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:09 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:09 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:09 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:10 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:10 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:10 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:10 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:10 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:10 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:11 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:11 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:11 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:11 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:12 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:12 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:12 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:13 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:13 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:13 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:13 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:13 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:13 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:13 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:13 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:13 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:13 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:15 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:15 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:15 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:15 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:15 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:15 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:15 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:15 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[20-Apr-2020 13:50:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
+[20-Apr-2020 13:50:16 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323

@@ -64,9 +64,11 @@ function custom_class( $classes )
 
 add_filter( 'body_class', 'custom_class' );
 
+// Allow comments for Events and Movies
 function allowCommentsForEvents()
 {
 	add_post_type_support( 'events', 'comments' );
+    add_post_type_support( 'movies', 'comments' );
 }
 
 add_action('init', 'allowCommentsForEvents');

@@ -32,6 +32,8 @@
  }
 
  require 'include/LoadMovieAssets.php';
+ require 'include/MovieCustomPostType.php';
+ require 'include/MovieGenre.php';
 
  if( !class_exists('Movie') ){
 
@@ -45,6 +47,8 @@
  		public function boot()
  		{
  			$movieAssets = new LoadMovieAssets(); // load assets: css, js
+ 			$movieData = new MovieCustomPostType(); // create instance of Movie custom post type
+ 			$movieGenre = new MovieGenre(); // add genre taxonomy to Movies
  		}
 
  		public static function create()

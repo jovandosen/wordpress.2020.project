@@ -2,9 +2,50 @@
 <?php 
 	if( isset($_GET['movie-search']) ){
 		// process search query
+
+		$countGenres = 0;
+		$terms = array();
+
+		if( !empty($_GET['action']) ){
+			$countGenres++;
+			$terms[] = $_GET['action'];
+		}
+
+		if( !empty($_GET['drama']) ){
+			$countGenres++;
+			$terms[] = $_GET['drama'];
+		}
+
+		if( !empty($_GET['comedy']) ){
+			$countGenres++;
+			$terms[] = $_GET['comedy'];
+		}
+
+		if( !empty($_GET['horror']) ){
+			$countGenres++;
+			$terms[] = $_GET['horror'];
+		}
+
+		if( !empty($_GET['thriller']) ){
+			$countGenres++;
+			$terms[] = $_GET['thriller'];
+		}
+
 		$s = $_GET["s"];
 
-		$args = array('post_type' => 'movies', 'posts_per_page' => -1, 's' => $s);
+		if( $countGenres === 0 ){
+			$args = array('post_type' => 'movies', 'posts_per_page' => -1, 's' => $s);
+		} else {
+
+			$args = array('post_type' => 'movies', 'posts_per_page' => -1, 's' => $s, 'tax_query' => array(
+				array(
+					'taxonomy' => 'genres',
+					'field' => 'slug',
+					'terms' => $terms,
+				)
+			));
+
+		}
 
 		$query = new WP_Query($args);
 
@@ -54,6 +95,8 @@
 			</div>
 			<?php
 		}
+
+		wp_reset_postdata();
 
 	} else {
 		get_template_part('content', 'search'); 

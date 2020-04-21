@@ -452,3 +452,9 @@ Next Exception: Too few arguments to function add_action(), 0 passed in C:\xampp
 [20-Apr-2020 13:50:15 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
 [20-Apr-2020 13:50:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 317
 [20-Apr-2020 13:50:16 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\wordpress.2020.project\wp-includes\post-template.php on line 323
+[21-Apr-2020 11:18:57 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2303
+[21-Apr-2020 11:18:57 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2305
+[21-Apr-2020 11:18:57 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2303
+[21-Apr-2020 11:18:57 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2305
+[21-Apr-2020 11:18:57 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2303
+[21-Apr-2020 11:18:57 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\wordpress.2020.project\wp-admin\includes\class-wp-site-health.php on line 2305

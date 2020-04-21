@@ -11,3 +11,8 @@ function hideShowComments(that)
 {
 	jQuery(that).next().toggle();
 }
+
+function hideShowCategories(that)
+{
+	jQuery(that).parent().next().toggle();
+}

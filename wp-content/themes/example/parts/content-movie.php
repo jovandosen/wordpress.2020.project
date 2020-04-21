@@ -2,10 +2,44 @@
 
 	<div class="row add-box-top-style">
 		<div class="col-12">
-			<form role="search" method="GET" action="<?php echo home_url('/'); ?>">
+			<form role="search" method="GET" action="<?php echo home_url('/'); ?>" id="movie-form">
 				<input type="search" class="form-control" placeholder="Search Movies..." value="<?php echo get_search_query(); ?>" name="s" title="Search" autocomplete="off">
 				<input type="hidden" name="movie-search" value="search-for-movies">
 			</form>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-12 add-box-top-style-two">
+			<a href="<?php echo esc_js( 'javascript:void(0)' ); ?>" onclick="<?php echo esc_js( 'hideShowCategories(this)' ); ?>">show genres</a>
+		</div>
+		<div class="col-12 add-box-top-style-three" style="display: none;">
+			
+			<div class="custom-control custom-checkbox mr-sm-2">
+        		<input type="checkbox" class="custom-control-input" id="action" name="action" value="action" form="movie-form">
+        		<label class="custom-control-label" for="action">Action</label>
+      		</div>
+
+      		<div class="custom-control custom-checkbox mr-sm-2">
+        		<input type="checkbox" class="custom-control-input" id="drama" name="drama" value="drama" form="movie-form">
+        		<label class="custom-control-label" for="drama">Drama</label>
+      		</div>
+
+      		<div class="custom-control custom-checkbox mr-sm-2">
+        		<input type="checkbox" class="custom-control-input" id="comedy" name="comedy" value="comedy" form="movie-form">
+        		<label class="custom-control-label" for="comedy">Comedy</label>
+      		</div>
+
+      		<div class="custom-control custom-checkbox mr-sm-2">
+        		<input type="checkbox" class="custom-control-input" id="horror" name="horror" value="horror" form="movie-form">
+        		<label class="custom-control-label" for="horror">Horror</label>
+      		</div>
+
+      		<div class="custom-control custom-checkbox mr-sm-2">
+        		<input type="checkbox" class="custom-control-input" id="thriller" name="thriller" value="thriller" form="movie-form">
+        		<label class="custom-control-label" for="thriller">Thriller</label>
+      		</div>
+
 		</div>
 	</div>
 	
